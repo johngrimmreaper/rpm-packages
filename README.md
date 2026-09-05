@@ -7,8 +7,12 @@ A simple index of the public RPM repositories maintained by Reaper.
 ### [RHEL 9 RPM Repository](https://johngrimmreaper.github.io/rhel9-rpms/)
 Stable RPM packages for Red Hat Enterprise Linux 9 and compatible systems.
 
+> **[EPEL 9](https://docs.fedoraproject.org/en-US/epel/getting-started/) may be required.** Some packages in this repository depend on packages provided by EPEL 9. If EPEL 9 is not enabled on your system, those packages may be impossible to install because their dependencies cannot be resolved.
+
 ### [RHEL 10 RPM Repository](https://johngrimmreaper.github.io/rhel10-rpms/)
 Stable RPM packages for Red Hat Enterprise Linux 10 and compatible systems.
+
+> **[EPEL 10](https://docs.fedoraproject.org/en-US/epel/getting-started/) may be required.** Some packages in this repository depend on packages provided by EPEL 10. If EPEL 10 is not enabled on your system, those packages may be impossible to install because their dependencies cannot be resolved.
 
 ### [Fedora 44 RPM Repository](https://johngrimmreaper.github.io/fedora44-rpms/)
 Stable RPM packages for Fedora Linux 44.
